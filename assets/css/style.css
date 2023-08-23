@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+
+.card {
+    width: 550px;
+    height: 550px;
+    background-color: #fff;
+    box-shadow: 5px 0 5px 5px black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.h3
+{font-size: 50px;}
+.d-flex {
+    display: flex;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.gap-50 {
+    gap: 50px;
+}
+
+.button {
+    width: 118px;
+    height: 46px;
+    padding: 11px 28px;
+    border-radius: 23px;
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.font-size {
+    font-size: 38px;
+}
+
+.font-size2 {
+    font-size: 15px;
+}
+
+.save {
+    width: 118px;
+    height: 46px;
+    padding: 11px 28px;
+    border-radius: 23px;
+    border: none;
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.font-size3{
+    font-size: 30px;
+}
+
+.btn-disable {
+    background-color: grey;
+    color: #fff;
+    cursor: not-allowed;
+    opacity: 50%;
+
+}
+
+.reset {
+    width: 118px;
+    height: 46px;
+    color: #fff;
+    padding: 11px 28px;
+    background-color: black;
+    border-radius: 5px;
+    padding-left: 20px;
+}
